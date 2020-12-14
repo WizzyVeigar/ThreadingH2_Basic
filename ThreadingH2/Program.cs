@@ -12,7 +12,6 @@ namespace ThreadingPractice
     class Program
     {
         static char ch = '*';
-        static int number = 0;
 
         static void Main(string[] args)
         {
@@ -177,7 +176,7 @@ namespace ThreadingPractice
             catch (Exception e)
             {
                 Console.WriteLine("Something went wrong");
-                throw;
+                throw e;
             }
         }
 
